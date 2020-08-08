@@ -25,10 +25,9 @@ public class GoodsService {
 
     public String checkName(String goodsName) {
         List<Goods> list = this.findAllGoods();
-        System.out.println(list+"上课呢大V奇偶苏贵很多事哦");
         for (Goods c : list) {
             if (c.getGoodsName().equals(goodsName)){
-                return "商品名称不可用呵呵呵";
+                return "商品名称不可用";
             }
         }
         return "商品名称可用";
