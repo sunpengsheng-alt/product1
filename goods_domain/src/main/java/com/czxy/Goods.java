@@ -21,8 +21,6 @@ public class Goods {
 
     private String guaranteePeriod;
 
-    private String cid;
 
-    private Category category;
 
 }
