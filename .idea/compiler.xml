@@ -18,10 +18,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="good_dao" options="-parameters" />
-      <module name="good_web" options="-parameters" />
-      <module name="goods_domain" options="-parameters" />
-      <module name="goods_service" options="-parameters" />
+      <module name="good_dao" options="" />
+      <module name="good_web" options="" />
+      <module name="goods_domain" options="" />
+      <module name="goods_service" options="" />
       <module name="goods_web" options="-parameters" />
       <module name="product" options="-parameters" />
     </option>
