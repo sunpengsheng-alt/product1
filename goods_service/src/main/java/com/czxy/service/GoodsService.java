@@ -28,6 +28,7 @@ public class GoodsService {
 
     public String checkName(String goodsName) {
         System.out.println("王庭伟");
+        System.out.println("贺俊");
         List<Goods> list = this.findAllGoods();
         for (Goods c : list) {
             if (c.getGoodsName().equals(goodsName)){
