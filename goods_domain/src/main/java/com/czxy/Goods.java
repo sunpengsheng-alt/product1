@@ -22,5 +22,9 @@ public class Goods {
     private String guaranteePeriod;
 
 
+    /*莫西莫西莫西莫西莫西莫西吗
+    * */
+
+
 
 }
