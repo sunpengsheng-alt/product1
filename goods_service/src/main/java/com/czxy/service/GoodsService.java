@@ -10,6 +10,9 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.List;
 
+/**
+ * sps seghfigdfagdf
+ */
 @Service
 public class GoodsService {
 
