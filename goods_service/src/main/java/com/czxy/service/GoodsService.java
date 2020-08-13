@@ -41,4 +41,8 @@ public class GoodsService {
     public List<Goods> findAllGoods() {
         return goodsMapper.findAllGoods();
     }
+
+    public void findTest(){
+        System.out.println("测试git");
+    }
 }
