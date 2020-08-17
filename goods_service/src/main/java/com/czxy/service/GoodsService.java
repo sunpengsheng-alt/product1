@@ -28,10 +28,6 @@ public class GoodsService {
 
     public String checkName(String goodsName) {
         System.out.println("王庭伟");
-        System.out.println("贺俊");
-        System.out.println("是苗紫阳呀!");
-        Goods tempGoods = new Goods();
-        System.out.println("孙鹏生整合后");
         List<Goods> list = this.findAllGoods();
         for (Goods c : list) {
             if (c.getGoodsName().equals(goodsName)){
